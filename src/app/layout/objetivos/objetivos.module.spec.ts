@@ -4,7 +4,7 @@ describe('BlankPageModule', () => {
     let objetivosModule:ObjetivosModule;
 
     beforeEach(() => {
-        objetivosModule = newObjetivosModule();
+        objetivosModule = new ObjetivosModule();
     });
 
     it('should create an instance', () => {

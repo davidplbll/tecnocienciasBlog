@@ -8,4 +8,4 @@ import { ObjetivosComponent } from './objetivos.component';
     imports: [CommonModule, ObjetivosRoutingModule],
     declarations: [ObjetivosComponent]
 })
-export class BlankPageModule {}
+export class ObjetivosModule {}
