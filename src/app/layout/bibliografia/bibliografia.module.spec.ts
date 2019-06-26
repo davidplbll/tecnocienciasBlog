@@ -1,13 +1,13 @@
-import {ArticuloModule } from './articulo.module';
+import {BibliograModule } from './bibliografia.module';
 
 describe('BlankPageModule', () => {
-    let articuloModule:ArticuloModule;
+    let bibliograModule:BibliograModule;
 
     beforeEach(() => {
-        articuloModule = new ArticuloModule();
+        bibliograModule = new BibliograModule();
     });
 
     it('should create an instance', () => {
-        expect(articuloModule).toBeTruthy();
+        expect(bibliograModule).toBeTruthy();
     });
 });

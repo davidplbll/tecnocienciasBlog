@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'objetivos',
-    templateUrl: './objetivos.component.html',
-    styleUrls: ['./objetivos.component.scss']
+    selector: 'bibliografia',
+    templateUrl: './bibliografia.component.html',
+    styleUrls: ['./bibliografia.component.scss']
 })
-export class ArticuloComponent implements OnInit {
+export class BibliografiaComponent implements OnInit {
     constructor() {}
 
     ngOnInit() {}

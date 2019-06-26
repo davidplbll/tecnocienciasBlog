@@ -1,21 +1,21 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ArticuloComponent } from './articulo.component';
+import { BibliograComponent } from './bibliografia.component';
 
 describe('BlankPageComponent', () => {
-    let component: ArticuloComponent;
-    let fixture: ComponentFixture<ArticuloComponent>;
+    let component: BibliograComponent;
+    let fixture: ComponentFixture<BibliograComponent>;
 
     beforeEach(
         async(() => {
             TestBed.configureTestingModule({
-                declarations: [ArticuloComponent]
+                declarations: [BibliograComponent]
             }).compileComponents();
         })
     );
 
     beforeEach(() => {
-        fixture = TestBed.createComponent(ArticuloComponent);
+        fixture = TestBed.createComponent(BibliograComponent);
         component = fixture.componentInstance;
         fixture.detectChanges();
     });
