@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { BibliograRoutingModule } from './articulo-routing.module';
-import { BibliograComponent } from './bibliografia.component';
+import { BibliografiaRoutingModule } from './bibliografia-routing.module';
+import { BibliografiaComponent } from './bibliografia.component';
 
 @NgModule({
-    imports: [CommonModule, BibliograRoutingModule],
-    declarations: [BibliograComponent]
+    imports: [CommonModule, BibliografiaRoutingModule],
+    declarations: [BibliografiaComponent]
 })
-export class BibliograModule {}
+export class BibliografiaModule {}

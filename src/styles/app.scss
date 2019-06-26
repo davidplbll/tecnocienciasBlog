@@ -4,9 +4,21 @@
 @import "utils";
 @import "rtl";
 @import "responsive";
+@import 'aos/dist/aos.css';
 
 @media print {
     .breadcrumb {
         display: none !important;
     }
+}
+
+body{
+    background: #e6e6e675 !important; 
+}
+p{
+    text-align: justify !important;
+}
+
+h1{
+    text-align: center;
 }

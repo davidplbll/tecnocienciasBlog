@@ -1,28 +1,46 @@
 <nav class="sidebar" [ngClass]="{sidebarPushRight: isActive, collapsed: collapsed}">
     <div class="list-group">
-        <a [routerLink]="['/charts']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;
+        <a [routerLink]="['/dashboard']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-book"></i>
+            <span>PRESENTACIÓN</span>
+        </a>
+        <a [routerLink]="['/contextualizacion']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-book"></i>
             <span>CONTEXTUALIZACIÓN</span>
         </a>
-        <a [routerLink]="['/charts']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;
+        <a [routerLink]="['/objetivos']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-book"></i>
             <span>OBJETIVOS</span>
         </a>
-        <a [routerLink]="['/charts']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;
-            <span>ORGANIZACIÓN DE LA CONTROVERSIA</span>
+        <a [routerLink]="['/organizacion']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-book"></i>
+            <span>ORGANIZACIÓN</span>
         </a>
-        <a [routerLink]="['/charts']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;
+        <a [routerLink]="['/articulo']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fas fa-newspaper"></i>&nbsp;
             <span>ARTÍCULO INICIAL</span>
         </a>
-        <a [routerLink]="['/charts']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;
-            <span>PREGUNTAS QUE ORIENTAN LA CONTROVERSIA</span>
+        <a [routerLink]="['/ensayo1']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="far fa-copy"></i>&nbsp;
+            <span>ENSAYO 1</span>
         </a>
-        <a [routerLink]="['/charts']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;
-            <span>BIBLIOGRAFÍA Y VIDEOGRAFÍA</span>
+        <a [routerLink]="['/ensayo2']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="far fa-copy"></i>&nbsp;
+            <span>ENSAYO 2</span>
+        </a>
+        <a [routerLink]="['/ensayo3']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="far fa-copy"></i>&nbsp;
+            <span>ENSAYO 3</span>
+        </a>    
+        <a [routerLink]="['/ensayo4']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="far fa-copy"></i>&nbsp;
+            <span>ENSAYO 4</span>
+        </a>    
+        <a [routerLink]="['/bibliografia']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-bookmark"></i><span>BIBLIOGRAFÍA</span>
+        </a>
+        <a [routerLink]="['/multimedia']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fas fa-images"></i>&nbsp;<span>MULTIMEDIA</span>
         </a>
         <div class="header-fields">
             <a (click)="rltAndLtr()" class="list-group-item">

@@ -1,63 +1,23 @@
 <div [@routerTransition]>
-    <h2 class="text-muted">Dashboard <small>Statistics Overview</small></h2>
+    <h2 class="text-muted">¿HIDROITUANGO UNA SOLUCIÓN ENERGÉTICA PARA COLOMBIA?</h2>
     <div class="row">
         <div class="col-md-12">
             <ngb-carousel>
                 <ng-template ngbSlide *ngFor="let slider of sliders">
-                    <img class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide" width="100%">
-                    <div class="carousel-caption">
-                        <h3>{{slider.label}}</h3>
-                        <p>{{slider.text}}</p>
-                    </div>
+                    <img class="img-fluid mx-auto d-block" style="height: 395px !important" [src]="slider.imagePath" alt="Random first slide" width="100%">
                 </ng-template>
             </ngb-carousel>
         </div>
     </div>
-    <hr>
-    <div class="row">
-        <div class="col-xl-3 col-lg-6">
-            <app-stat [bgClass]="'primary'" [icon]="'fa-comments'" [count]="26" [label]="'New Comments!'" ></app-stat>
-        </div>
-        <div class="col-xl-3 col-lg-6">
-            <app-stat [bgClass]="'warning'" [icon]="'fa-tasks'" [count]="12" [label]="'New task!'" ></app-stat>
-        </div>
-        <div class="col-xl-3 col-lg-6">
-            <app-stat [bgClass]="'success'" [icon]="'fa-shopping-cart'" [count]="124" [label]="'New Orders!'" ></app-stat>
-        </div>
-        <div class="col-xl-3 col-lg-6">
-            <app-stat [bgClass]="'danger'" [icon]="'fa-support'" [count]="13" [label]="'New Tickets!'"></app-stat>
-        </div>
-    </div>
-    <hr />
-    <ngb-alert [type]="alert.type" (close)="closeAlert(alert)" *ngFor="let alert of alerts">{{ alert.message }}</ngb-alert>
-    <hr />
-    <div class="row">
-        <div class="col-lg-8">
-            <div class="card card-default">
-                <div class="card-header">
-                    <i class="fa fa-clock-o fa-fw"></i> Responsive Timeline
-                </div>
-                <!-- /.card-header -->
-                <app-timeline></app-timeline>
-                <!-- /.card-body -->
-            </div>
-            <!-- /.card -->
-        </div>
-        <!-- /.col-lg-8 -->
-        <div class="col-lg-4">
-            <div class="card card-default mb-3">
-                <div class="card-header">
-                    <i class="fa fa-bell fa-fw"></i> Notifications card
-                </div>
-                <!-- /.card-header -->
-                <app-notification></app-notification>
-                <!-- /.card-body -->
-            </div>
-            <!-- /.card -->
+    <br>
+    <h2 class="mt-1">PRESENTACIÓN</h2>
+    <div class="row ml-1">
+            <p>En 1969, nació la idea de construir sobre el tramo medio del río Cauca una obra que brindará energía al departamento de Antioquia, y por qué no, al país. Entre 1979 y 1983 se empezó a realizar el estudio de factibilidad, con una planeación de una obra de 247 metros de altura y 3.560 megavatios. Hoy en día es de 2.400 megavatios. pasaron 15 años para que en 1998 fue creada la Sociedad Promotora de la Hidroeléctrica Pescadero Ituango quien hizo la tarea de impulsar el proyecto. En 2004, Integral elaboró el estudio de restricciones ambientales. En 2009 se otorgó la licencia ambiental y en 2010 EPM gana la licitación obteniendo un contrato de uso y explotación por 50 años. En 2013 con contratiempos y todo en contra se inicia la construcción acelerando el trabajo en 2015. En 2018 se esperaba que la primera fase estuviera lista, pero fue aquí en este punto donde los incidentes de magnitud considerable, comenzaron.</p>
 
-            <app-chat></app-chat>
-            <!-- /.card .chat-card -->
-        </div>
-        <!-- /.col-lg-4 -->
+            <p>El movimiento Ríos Vivos Antioquia se crea como movimiento por la defensa de los derechos humanos de las comunidades de del Occidente, Norte y Bajo-Cauca antioqueño, zona de influencia de la construcción del proyecto HidroItuango, proyecto que el movimiento rechaza por tres razones fundamentales: tala indiscriminada de árboles y el arrojo de los árboles talados y escombros en el Río Cauca, cambio de la forma de vida de las comunidades de la zona en el ámbito cultural y económico a lo cual EPM no ha entregado ninguna compensación o reubicación a las familias residentes del área con complicidad del estado colombiano y violando flagrantemente los compromisos adquiridos en la licencia ambiental y serán inundadas más de 26.000 hectáreas las cuales han sido históricamente “campos de batalla” bajo el marco del conflicto interno social y armado, zona en donde hay fosas comunes de víctimas del conflicto y que al ser inundadas no van a revelar lo que ocurrió verdaderamente en este lugar.</p>
+            
+            <p>Sin dudas EPM ha sido una empresa con trayectoria a nivel nacional e internacional. Una de las más grandes “hijas” del seno Antioqueño pone a disposición 64 años de experiencia en servicios públicos e inversiones industriales al servicio de los Antioqueños. A nivel nacional es la empresa más grande de servicios públicos con sus marcas EPM y UNE. ¿Quién más si no EPM para construir y administrar una mega obra como Hidroituango?, las cartas de presentación son más que suficientes para afrontar este desafío que llevará al pueblo colombiano a un mayor progreso en el sector energético, y será modelo para atraer la inversión extranjera.          </p>
+            
+            <p>El ministerio de Minas y Energía en cabeza de la ministra María Fernanda Suárez, sostiene que la incorporación de nuevas tecnologías, nuevos agentes y esquemas de mercado en el sector eléctrico es fundamental para ofrecer energía segura, sostenible y a precios competitivos para los usuarios. Colombia no se puede quedar atrás.</p>
     </div>
 </div>

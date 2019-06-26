@@ -8,4 +8,4 @@ import { ContextualizacionComponent } from './contextualizacion.component';
     imports: [CommonModule, ContextualizacionRoutingModule],
     declarations: [ContextualizacionComponent]
 })
-export class BlankPageModule {}
+export class ContextualizacionModule {}

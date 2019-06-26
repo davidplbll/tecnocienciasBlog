@@ -6,6 +6,7 @@ import { ArticuloComponent } from './articulo.component';
 
 @NgModule({
     imports: [CommonModule, ArticuloRoutingModule],
-    declarations: [ArticuloComponent]
+    declarations: [ArticuloComponent],
+    exports:[ArticuloComponent] 
 })
 export class ArticuloModule {}
